@@ -14,13 +14,13 @@ Route::get('/checkAuth', [PostsController::class,'get_checkAuth']);
 
 
 
-// Route::get('/pos', function () {
-//     return request()->header();
-//     // return response()->json([
-//     //     'title' => 'My first post',
-//     //     'content' => 'This is my first post'
-//     // ]);
-// });
+Route::get('/pos', function () {
+    return request()->header();
+    // return response()->json([
+    //     'title' => 'My first post',
+    //     'content' => 'This is my first post'
+    // ]);
+});
 // Route::get('/postsmm', [PostsController::class,'index'])->middleware([TestMarzouk::class]);//on teste si middleware fonctionne
 // Route::get('/postskk', [PostsController::class,'chekToken']);
 
